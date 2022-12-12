@@ -1,0 +1,23 @@
+.navBar {
+	display: grid;
+	grid-template-columns: min-content 80px min-content;
+	gap: 5px;
+	align-items: center;
+	justify-items: center;
+	margin-bottom: 15px;
+}
+
+.info {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 12px;
+	span {
+		margin-right: 10px;
+	}
+	label {
+		margin-right: 10px;
+	}
+	.editBtn {
+		margin-left: 10px;
+	}
+}

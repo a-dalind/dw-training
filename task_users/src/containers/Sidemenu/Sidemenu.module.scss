@@ -1,0 +1,24 @@
+.sidebarList {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px;
+	list-style: none;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.sidebarLink {
+	display: flex;
+	text-decoration: none;
+	color: white;
+	border: 2px solid transparent;
+	padding: 5px 10px;
+}
+
+.sidebarLinkActive {
+	display: flex;
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 5px 10px;
+}

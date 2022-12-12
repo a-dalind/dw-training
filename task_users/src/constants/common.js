@@ -1,0 +1,6 @@
+export const ACTION_STATUS = {
+	IDLE: 'IDLE',
+	LOADING: 'LOADING',
+	LOADED: 'LOADED',
+	FAILED: 'FAILED',
+}

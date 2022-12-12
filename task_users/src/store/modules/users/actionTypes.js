@@ -1,0 +1,9 @@
+export const USERS_LIST = {
+  REQUEST: 'USERS_LIST_REQUEST',
+  RECEIVE: 'USERS_LIST_RECEIVE',
+  FAILURE: 'USERS_LIST_FAILURE',
+}
+
+export const SET_GROUP = 'SET_GROUP';
+
+export const UPDATE_USER = 'UPDATE_USER';

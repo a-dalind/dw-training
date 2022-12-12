@@ -1,0 +1,35 @@
+.webPage {
+    position: relative;
+}
+
+.sideMenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: royalblue;
+    width: 100px;
+    position: absolute;
+    left: -150px;
+    padding: 8px 14px ;
+}
+
+.show {
+    left: 0px;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    width: 95%;
+    border-left: 2px solid #5a5a5a;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.move {
+    left: 128px;
+}
+
+.about {
+    display: none;
+}
